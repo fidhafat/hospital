@@ -1,0 +1,82 @@
+{% extends "base.html" %}
+{% block title %}
+contact
+{% endblock %}
+{% block content %}
+<style>
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.contact-section {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.contact-section p {
+    color: #555;
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+}
+
+.contact-details {
+    margin-bottom: 40px;
+}
+
+.contact-details .info h3 {
+    font-size: 1.5rem;
+    color: #007BFF;
+    margin-bottom: 10px;
+}
+
+.contact-details .info p {
+    font-size: 1rem;
+    color: #666;
+}
+
+
+</style>
+<section id="contact" class="contact-section">
+    <div class="container">
+        <h2>Contact Us</h2>
+        <p>Have questions or need assistance? Reach out to City Hospital. We're here to help!</p>
+
+        <div class="contact-details">
+            <div class="info">
+                <h3>Our Address</h3>
+                <p>123 Health Lane, City Center, Metropolis</p>
+
+                <h3>Call Us</h3>
+                <p>+1 (123) 456-7890</p>
+
+                <h3>Email Us</h3>
+                <p>contact@cityhospital.com</p>
+
+                <h3>Working Hours</h3>
+                <p>Monday - Saturday: 8:00 AM - 8:00 PM</p>
+                <p>Sunday: Closed</p>
+            </div>
+        </div>
+
+        
+    </div>
+</section>
+
+{%endblock%}
